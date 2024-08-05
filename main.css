@@ -10,7 +10,10 @@ header {
     background-color: rgb(0, 0, 190);
 }
 
-header h1, section h2 {
+header h1,
+section h2,
+section h3,
+form button {
     font-weight: normal;
 }
 
@@ -69,4 +72,65 @@ section p {
 
 .store-front {
     margin-right: 32px;
+}
+
+.Social-Links img {
+    height: 24px;
+}
+
+.Social-Links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.Social-Links li a {
+    text-decoration: none;
+}
+
+#Contact .container {
+    display: block;
+}
+
+.Contact-Methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(0, 200, 0);
+}
+
+input:focus, textarea:focus {
+    outline-color: green;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 16px 0 ;
 }
